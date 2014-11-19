@@ -1,0 +1,30 @@
+{
+    "name": "rbma-components",
+    "version": "0.0.18",
+    "homepage": "https://github.com/acolorbright/rbma-components",
+    "authors": [
+        "ACB <info@acb.io>"
+    ],
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "main": [
+        "pagetypes/index.js",
+        "pagetypes/story/index.js",
+        "pagetypes/event/index.js",
+        "pagetypes/lecture/index.js",
+        "blocktypes/index.js",
+        "blocktypes/text/index.js",
+        "blocktypes/quote/index.js",
+        "blocktypes/image/index.js",
+        "blocktypes/radioshow/index.js",
+        "blocktypes/radioshowplaylist/index.js",
+        "blocktypes/soundcloud/index.js"
+    ]
+}
